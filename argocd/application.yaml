@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/Plouik/gitops_demo.git
     targetRevision: main
-    path: apps/hello-world
+    path: deploy
   destination:
     server: https://kubernetes.default.svc
     namespace: default
